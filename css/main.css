@@ -1,6 +1,6 @@
 body {
 	background-color: black;
-  font-family: 'Permanent Marker', cursive;;
+  font-family: 'Permanent Marker', cursive;
 }
 
 .main {
@@ -29,11 +29,10 @@ body {
 .ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool {
   width: 659px;
   height: 494px;
+  display: none;
 }
 
-.ryu-ready, .ryu-throwing {
-  display: none;
-} 
+/*background images*/
 
 .ryu-ready {
   background-image: url('../images/ryu-ready-position.gif');
@@ -49,7 +48,6 @@ body {
 
 .ryu-cool {
   background-image: url('../images/ryu-cool.gif');
-  display: none;
 }
 
 .hadouken, .ryu-ready, .ryu-still, .ryu-throwing {
@@ -65,7 +63,7 @@ body {
   position: absolute;
   z-index: 10;
   top: 167px;
-  left: 520px;
+  left: 920px;
   float: left;
 }
 
